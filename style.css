@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;/* Sayfa yüksekliği boyutunda dikey merkezlemek için */
+  background-color: pink;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  margin: 150px 150px;
+}
+
+.container #clear-buton {
+  background-color: pink;
+  color: white;
+  border: none;
+  width: 400px;
+  padding: 13px;
+  margin-top: 440px;
+  margin-left: 50px;
+  font-size: large;
+}
